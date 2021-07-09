@@ -1,0 +1,171 @@
+/* <----- Title section----> */
+*{
+    margin: 0;
+}
+p{
+    color:#8f8f8f;
+    font-size: 1rem;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 5% 15%;
+
+}
+.logo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+    margin: 0 25px;
+}
+
+.navbar {
+    padding-left: 0;
+
+}
+
+.titleimage{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 1;
+    right: 30%;
+
+}
+
+.sec{
+    margin-top: 5%;
+}
+
+.sec h1{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+ .dwnb{
+     margin: 5% 3% 5% 0%;
+ }
+
+
+
+ #features{
+     background-color: #fff;
+     text-align: center;
+     padding: 7% 15%;
+     position: relative;
+     z-index: 2;
+ }
+
+ .fas{
+     color: #ef8172;
+     margin-bottom: 2%;
+ }
+
+ .box{
+     padding: 5%;
+ }
+
+
+ #testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+ }
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+ #testimonials img{
+     width: 6%;
+     border-radius: 100%;
+     margin: 1%;
+    
+ }
+
+ #press{
+    background-color: #ef8172;
+    text-align: center;
+
+ }
+
+ #press img{
+     width: 15%;
+     margin: 4% 1%;
+ }
+
+
+ #pricing{
+     text-align: center;
+     margin: 5% 5%;
+ }
+
+ .card{
+     margin: 10% 0%;
+ }
+
+
+
+#cta{
+    background-color:#ff4c68 ;
+    color: #fff;
+}
+
+.ctsection{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 7% 0 5% 0;
+
+}
+#cta h3{
+    font-size: 3.3rem;
+}
+
+
+#footer{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.social-icon{
+    color: black;
+    margin: 10% 1% 1% 1%;
+}
+
+
+
+ /* -------------Media Query Section----------- */
+
+ @media (max-width:991px) {
+
+    .row{
+        text-align: center;    
+    
+    }
+
+    .titleimage{
+        width: 30%;
+        transform: rotate(0deg);
+        position: static;
+    
+    }
+     
+ }
